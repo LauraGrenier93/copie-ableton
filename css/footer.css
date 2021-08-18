@@ -1,6 +1,5 @@
 footer {
     padding: 1rem;
-    position: relative;
 }
 
 .footer-title {
@@ -47,7 +46,7 @@ input.email {
 
 .logo-text {
     position: absolute;
-    top: 1186px;
+    top: 20px;
     left: 95px;
 }
 
@@ -124,4 +123,9 @@ li.footer-link>a {
 
 footer>div {
     margin-top:1rem;
+}
+
+.nav-logo-text {
+    position: absolute;
+    width: 100%;
 }
