@@ -5,4 +5,8 @@ let nav  = {
     menu:()=>{
         document.querySelector(".nav-menu").addEventListener("click", handle.handleMenu);       
     },
+
+    displayMenu:()=>{
+        window.addEventListener('scroll', handle.handleDisplayMenu);
+    }
 }

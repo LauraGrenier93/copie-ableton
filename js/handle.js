@@ -12,9 +12,17 @@ let handle = {
             line.classList.toggle('open');
         }
         document.querySelector('.separation').classList.toggle('open');
+    },
 
-        init:()=> {
-            nav.menu();
-        }
+    handleDisplayMenu:() => {
+            console.log('la page est scrollée');
+            console.log('window.pageXOffset', window.pageXOffset);
+            console.log('window.pageYOffset', window.pageYOffset);
+            if(window.pageYOffset<100){
+                console.log("document.querySelector('.nav-container-fixe'",document.querySelector('.nav-container-fixe'));
+                document.querySelector('.nav-container-fixe').classList.add('hide');
+            } else {
+                document.querySelector('.nav-container-fixe').classList.remove('hide');
+            }
     },
 }
