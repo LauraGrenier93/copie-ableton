@@ -21,7 +21,7 @@ It allowed me to practice
 
 ## Install
 
-$ git clone [git@github.com:LauraGrenier93//copy-starbucks.git]
+$ git clone [git@github.com:LauraGrenier93/copie-ableton.git]
 
 $ cd ../path/to/the/file
 
